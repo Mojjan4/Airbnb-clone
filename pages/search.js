@@ -11,7 +11,6 @@ function Search({ searchResult }) {
   const formattedStartdDate = format(new Date(startDate), "dd MMMM yy")
   const formattedEndDate = format(new Date(endDate), "dd MMMM yy");
   const range = `${formattedStartdDate} - ${formattedEndDate}`;
-
   
   return (
     <div>
